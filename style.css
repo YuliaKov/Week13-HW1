@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    
+    width: 500px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.your-date {
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-family: serif;
+    padding: 0 15px;
+    margin-right: 30px;
+    }
+
+.count-btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(5, 177, 5);
+    background-color: lightgreen;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.count-btn:hover {
+    cursor: pointer;
+    background-color: rgb(5, 177, 5);
+}
+
+.message {
+    margin-top: 30px;
+    font-size: 18px;
+}
