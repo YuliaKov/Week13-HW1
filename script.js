@@ -7,7 +7,6 @@ function countDays () {
     const yourBirthdayTimestamp = Date.parse(yourBirthdayStr);
     const currentTimestamp = Date.now();
     const daysDiff = Math.ceil ((yourBirthdayTimestamp - currentTimestamp)/(1000*60*60*24));
-    console.log(daysDiff);
     let days;
     if (daysDiff % 10 === 1 && daysDiff % 100 !== 11) {
         days = "день";
@@ -16,7 +15,7 @@ function countDays () {
     } else {
         days = "дней";
     }
-    
+
     if (isNaN(daysDiff)) {
         messageBlock.innerHTML = "Укажите Ваш день рождения!";
         messageBlock.style.color = 'red';
